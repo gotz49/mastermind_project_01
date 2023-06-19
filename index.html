@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- fonts style links -->
+		<!-- fonts style links -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
 			rel="stylesheet"
 		/>
-        <!-- Title-->
+		<!-- Title-->
 		<title>Masterdots game</title>
 		<!--reset css-->
 		<link rel="stylesheet" href="css/reset.css" />
@@ -29,9 +29,13 @@
 		<main>
 			<form action="#">
 				<div class="itemform">
-					<label for="name">Introduce tu nick:</label>
-                    <input type="text" name="" id="nicka" value="@">
-					<input type="text" name="nick" id="nick"/>
+					<label for="name"> Introduce tu nick: </label>
+					<input type="text" id="nicka" value="@" readonly />
+					<input type="text" name="nick" id="nick" />
+				</div>
+				<div class="itemform">
+					<label for="email"> Correo electrónico </label>
+					<input type="text" id="email" value="example@email.com" />
 				</div>
 				<div class="itemform">
 					<label for="">Tamaño del juego</label>
@@ -51,5 +55,8 @@
 		<footer>
 			<p>A FrontEnd Game by Santiago Diaz</p>
 		</footer>
+
+		<!-- JavaScript link -->
+		<script src="js/App.js"></script>
 	</body>
 </html>

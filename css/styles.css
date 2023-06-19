@@ -44,7 +44,6 @@ input {
 
 input[type="submit"] {
     background-color: #fd0c49;
-    color: #9d9d9d;
     font-weight: 400;
     border-radius: 5px;
     width: 100%;
@@ -70,4 +69,18 @@ footer {
 #nicka {
     float: left;
     width: 20px;
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0 0 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#email {
+    color: #9d9d9d;
+    font-weight: 200;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0 0 5px;
+    font-size: 18px;
+    width: 300px;
 }
